@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <h1 class="light">{{ .Site.Title }}</h1>
+    {{ range (where .Site.Pages "Type" "post").GroupByPublishDate "2006" }}
+        <h2>{{ .Key }}</h2>
+        <ul class="no-bullet">
+            {{ range (where .Pages "Type" "post") }}
+            <li>
+                <time
+                    datetime='{{ .PublishDate.Format "2006-01-02" }}'
+                    class="post-date">{{ .PublishDate.Format "Jan" }}</time> <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    {{ end }}
+{{ end }}

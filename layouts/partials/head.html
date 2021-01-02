@@ -1,0 +1,14 @@
+<head>
+    <title> {{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{end}} </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ .Site.Params.Description }}">
+    <base href="{{ .Site.BaseURL }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+    <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
+    <script>
+        // To prevent Firefox FOUC
+        let FF_FOUC_FIX;
+    </script>
+</head>

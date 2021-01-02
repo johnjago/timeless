@@ -1,0 +1,12 @@
+name = "Timeless"
+license = "MIT"
+licenselink = "https://github.com/johnjago/timeless/blob/master/LICENSE"
+description = ""
+homepage = "https://github.com/johnjago/timeless"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "John Jago"
+  homepage = "https://johnjago.com"
