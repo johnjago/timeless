@@ -2,7 +2,7 @@
     <title>{{ if .IsHome }}{{ $.Site.Title }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{end}}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="{{ .Site.Params.Description }}">
+    <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
     {{ template "_internal/opengraph.html" . }}
     <base href="{{ .Site.BaseURL }}">
     <link rel="canonical" href="{{ .Permalink }}">
