@@ -156,3 +156,7 @@ blockquote {
 .block {
   display: block;
 }
+
+.ib {
+  display: inline-block;
+}
