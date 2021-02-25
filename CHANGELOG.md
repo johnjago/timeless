@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.2.0 (2020-01-03)
+## 0.3.0 (2021-02-25)
+
+### Added
+
+- Full date in the title attribute of dates displayed as only the month and year
+
+## 0.2.0 (2021-01-03)
 
 ### Changed
 
@@ -11,7 +17,7 @@
 
 - Don't assume that the base URL is /
 
-## 0.1.0 (2020-01-02)
+## 0.1.0 (2021-01-02)
 
 ### Added
 
