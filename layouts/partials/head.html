@@ -7,7 +7,9 @@
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
     <link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
-    {{ partial "font.html" . }}
+    {{ if .Site.Params.serif }}
+        {{ partial "font.html" . }}
+    {{ end }}
     <script>
         // To prevent Firefox flash of unstyled content
         let FF_FOUC_FIX;

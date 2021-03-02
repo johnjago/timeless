@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 (2021-03-02)
+
+### Added
+
+- Ability to turn off the serif fonts (currently only Charter) with the
+  `serif` param, which will cause the site to fall back to a sans-serif
+  system font stack
+
 ## 0.3.0 (2021-02-25)
 
 ### Added
