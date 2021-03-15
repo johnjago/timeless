@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 (2021-03-14)
+
+### Added
+
+- CSS styles for bold and italic text
+
 ## 0.4.0 (2021-03-02)
 
 ### Added

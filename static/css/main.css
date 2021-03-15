@@ -84,6 +84,16 @@ p {
   margin-bottom: 1.5rem;
 }
 
+strong,
+b {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic
+}
+
 code,
 pre {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
