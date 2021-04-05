@@ -52,17 +52,8 @@ h3 {
 }
 
 a {
-  border-bottom: 1px solid #999;
-  color: #333;
-  text-decoration: none;
-}
-
-footer a {
-  border: none;
-}
-
-a:hover {
-  background: #fde3e3;
+  color: #07a;
+  text-decoration: underline;
 }
 
 section ul {
@@ -123,9 +114,19 @@ pre code {
 }
 
 blockquote {
-  border-left: 5px solid salmon;
+  border-left: 5px solid #ccc;
   margin-left: 1rem;
   padding-left: 1.5rem;
+}
+
+footer a,
+.post-link {
+  text-decoration: none;
+}
+
+footer a:hover,
+.post-link:hover {
+  text-decoration: underline;
 }
 
 .no-bullet {
@@ -167,6 +168,6 @@ blockquote {
   display: block;
 }
 
-.ib {
+.inline-block {
   display: inline-block;
 }

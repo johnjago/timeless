@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.0 (2021-04-02)
+
+### Changed
+- Make link styles more "timeless" (standard color, subtle hover effects)
+
 ## 0.6.0 (2021-03-18)
 
 ### Changed
