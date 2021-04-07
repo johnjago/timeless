@@ -30,10 +30,6 @@ body {
   padding: 1rem;
 }
 
-h1 {
-  margin-bottom: 5rem;
-}
-
 section h1 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -133,12 +129,28 @@ footer a:hover,
   list-style-type: none;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
+.no-underline:hover {
+  text-decoration: underline;
+}
+
 .light {
   color: #535353;
 }
 
+.lighter {
+  color: #888;
+}
+
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 5rem;
 }
 
 .mt-5 {
