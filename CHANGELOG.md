@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.0 (2021-04-07)
+
+### Added
+- The menu links defined in `menu.main` in config.toml are also shown in the home page header
+- The site title on the home page now links to `/`
+- Italic text for blockquotes to better set them apart from the body text
+
 ## 0.7.0 (2021-04-05)
 
 ### Changed
