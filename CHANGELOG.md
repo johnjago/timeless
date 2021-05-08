@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0 (2021-05-08)
+
+### Added
+- A link back to home from a single page (like an about page)
+
 ## 0.8.0 (2021-04-07)
 
 ### Added
