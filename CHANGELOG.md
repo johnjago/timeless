@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.10.0 (2021-05-17)
+
+### Changed
+- Make the body narrower for a cozy feeling
+- Allow code blocks to expand beyond the article width to reduce the need to side scroll
+
 ## 0.9.0 (2021-05-08)
 
 ### Added
