@@ -1,10 +1,17 @@
 # Changelog
 
+## 0.11.0 (2021-05-24)
+
+### Added
+- Ability to change the "all posts" text that shows up at the top of single
+  posts and pages through the `headerAllPostsText` param
+
 ## 0.10.0 (2021-05-17)
 
 ### Changed
 - Make the body narrower for a cozy feeling
-- Allow code blocks to expand beyond the article width to reduce the need to side scroll
+- Allow code blocks to expand beyond the article width to reduce the need to
+  side scroll
 
 ## 0.9.0 (2021-05-08)
 
@@ -14,7 +21,8 @@
 ## 0.8.0 (2021-04-07)
 
 ### Added
-- The menu links defined in `menu.main` in config.toml are also shown in the home page header
+- The menu links defined in `menu.main` in config.toml are also shown in the
+  home page header
 - The site title on the home page now links to `/`
 - Italic text for blockquotes to better set them apart from the body text
 

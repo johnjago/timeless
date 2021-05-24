@@ -13,19 +13,20 @@ theme = "timeless"
 
 [params]
   description = "A blog about things."
+  headerAllPostsText = "all posts"
   footerSymbol = "~"
-  allPostsText = "all posts"
+  allPostsText = "read more"
   serif = true
 
 [menu]
   [[menu.main]]
-    name = "Link 2"
+    name = "Link 1"
     url = "about"
-    weight = 2
+    weight = 1
   [[menu.main]]
-    name = "Link 3"
+    name = "Link 2"
     url = "https://example.com"
-    weight = 3
+    weight = 2
 ```
 
 ## License
