@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12.0 (2021-08-26)
+
+### Changed
+- Post date is now in ISO 8601
+- Revised 404 page text
+
 ## 0.11.0 (2021-05-24)
 
 ### Added
