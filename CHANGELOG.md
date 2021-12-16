@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+- Use the full text of the post in the RSS feed item description for easy
+  reading in RSS readers
+
 ## 0.12.0 (2021-08-26)
 
 ### Changed
