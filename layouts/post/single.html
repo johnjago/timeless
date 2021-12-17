@@ -2,7 +2,7 @@
     <section id="main">
         <time
             datetime='{{ .PublishDate.Format "2006-01-02" }}'
-            class="light mb-1 inline-block">{{ .Date.Format "2006-01-02" }}</time> &middot; <a href="{{ .Site.BaseURL }}" class="light">{{ .Site.Params.HeaderAllPostsText | default "all posts" }}</a>
+			class="light mb-1 inline-block">{{ if eq .Site.Language.Lang "zh" }}{{ .Date.Year }}年{{ .Date.Format "1" }}月{{ .Date.Day }}日{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}</time> &middot; <a href="{{ .Site.BaseURL }}" class="light">{{ .Site.Params.HeaderAllPostsText | default "all posts" }}</a>
         <h1 id="title" class="mb-5">{{ .Title }}</h1>
         <div>
             <article id="content">

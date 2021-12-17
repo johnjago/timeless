@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Added
+- Show post dates in Chinese if the `defaultContentLanguage` param is set to
+  `zh`
+
 ### Changed
 - Use the full text of the post in the RSS feed item description for easy
   reading in RSS readers
