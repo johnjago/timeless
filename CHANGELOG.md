@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.12.1 (2022-03-19)
 
 ### Added
 - Show post dates in Chinese if the `defaultContentLanguage` param is set to
@@ -9,6 +9,8 @@
 ### Changed
 - Use the full text of the post in the RSS feed item description for easy
   reading in RSS readers
+- The background color is #fffcf9, a light beige that is brigher, less gloomy,
+  and more interesting than the previous light gray
 
 ## 0.12.0 (2021-08-26)
 

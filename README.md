@@ -3,6 +3,10 @@
 Timeless is an opinionated design that emphasizes reading experience and
 content above all else.
 
+It supports both `en` and `zh` content language, including regional date
+formats. It will default to English; otherwise you can add
+`defaultContentLanguage = "zh"` to config.toml.
+
 ## config.toml
 
 ```
