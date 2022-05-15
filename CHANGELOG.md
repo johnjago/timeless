@@ -7,6 +7,8 @@
   longer titles without strange wrapping
 - Those post dates are the full month, like January instead of Jan, for purely
   aesthetic reasons
+- To match the long month names on the home page, the dates inside the posts
+  are now in the format 2 January 2006 instead of 2006-01-02
 
 ## 0.12.1 (2022-03-19)
 
