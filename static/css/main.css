@@ -159,19 +159,11 @@ footer a:hover,
 }
 
 .post-date {
-  display: inline-block;
-  width: 5rem;
+  font-size: small;
+  margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 800px) {
-  .post-date {
-    display: block;
-  }
-
-  .post-link {
-    margin-left: 1rem;
-  }
-
   pre {
     margin-left: 0;
     width: inherit;

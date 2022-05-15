@@ -12,10 +12,11 @@
         <ul class="no-bullet">
             {{ range (where .Pages "Type" "post") }}
             <li>
+                <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
                 <time
                     datetime='{{ .PublishDate.Format "2006-01-02" }}'
                     title='{{ .PublishDate.Format "2006-01-02" }}'
-					class="post-date">{{ if eq .Site.Language.Lang "zh" }}{{ index .Site.Data.months (printf "%d" .PublishDate.Month) }}{{ else }}{{ .PublishDate.Format "Jan" }}{{ end }}</time> <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
+					class="post-date">{{ if eq .Site.Language.Lang "zh" }}{{ index .Site.Data.months (printf "%d" .PublishDate.Month) }}{{ else }}{{ .PublishDate.Format "January" }}{{ end }}</time>
             </li>
             {{ end }}
         </ul>

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.12.2 (2022-05-15)
+
+### Changed
+- The post dates on the home page are now at the end of the title to allow for
+  longer titles without strange wrapping
+- Those post dates are the full month, like January instead of Jan, for purely
+  aesthetic reasons
+
 ## 0.12.1 (2022-03-19)
 
 ### Added
