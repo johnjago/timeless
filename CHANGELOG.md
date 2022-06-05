@@ -1,11 +1,5 @@
 # Changelog
 
-## 0.12.3 (2022-06-05)
-
-### Changed
-- There is no longer a base href tag in the `<head>` section, which makes it
-  easier to work with images and fixes broken footnote anchors
-
 ## 0.12.2 (2022-05-15)
 
 ### Changed
