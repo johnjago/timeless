@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.12.3 (2022-08-01)
+
+### Changed
+- The width of the content area is a little larger so that single lines have
+  more space before they wrap
+
 ## 0.12.2 (2022-05-15)
 
 ### Changed
