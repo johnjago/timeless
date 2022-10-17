@@ -1,6 +1,6 @@
 # Changelog
 
-## 2022-10-15
+## 2022-10-16
 
 ### Changed
 - The default serif font is now Source Serif Pro, which [can be considered the
@@ -8,6 +8,8 @@
   previous serif font on this theme, Charter
 - If the serif font does not load, it will now fall back to sans-serif system
   fonts since they often look better
+- Hide the month next to the post name on the index page if on mobile to make
+  it look better on mobile
 
 ## 2022-08-01
 
