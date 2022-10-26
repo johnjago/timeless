@@ -52,6 +52,10 @@ a {
   text-decoration: underline;
 }
 
+.post-list a:visited {
+  color: #88a0aa;
+}
+
 section ul {
   margin-bottom: 1.5rem;
   padding-left: 3rem;

@@ -9,7 +9,7 @@
     </div>
     {{ range (where .Site.Pages "Type" "post").GroupByPublishDate "2006" }}
         <h2>{{ .Key }}</h2>
-        <ul class="no-bullet">
+        <ul class="no-bullet post-list">
             {{ range (where .Pages "Type" "post") }}
             <li>
                 <a href="{{ .RelPermalink }}" class="post-link">{{ .Title }}</a>
