@@ -61,6 +61,10 @@ section ul {
   padding-left: 3rem;
 }
 
+article img {
+  max-width: 100%;
+}
+
 li {
   margin: 0.5rem 0;
 }

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Make it easy to see which posts have been read on the index page with a
+  visited link color
+- Fix images not fitting on small screens
+
 ## 22.10.0 (2022-10-24)
 
 - The default serif font is now Source Serif Pro, which [can be considered the
