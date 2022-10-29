@@ -1,11 +1,11 @@
 <footer class="mt-5 light">
-    {{ .Site.Params.FooterSymbol }}
-    <ul class="no-bullet">
-        {{ if or (eq .Type "post") (eq .Type "meta") }}
-            <li><a href="{{ .Site.BaseURL }}" class="light">{{ .Site.Params.AllPostsText }}</a></li>
-        {{ end }}
-        {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}" class="light">{{- .Name -}}</a></li>
-        {{ end }}
-    </ul>
+	{{ .Site.Params.FooterSymbol }}
+	<ul class="no-bullet">
+		{{ if or (eq .Type "post") (eq .Type "meta") }}
+			<li><a href="{{ .Site.BaseURL }}" class="light">{{ .Site.Params.AllPostsText }}</a></li>
+		{{ end }}
+		{{ range .Site.Menus.main }}
+			<li><a href="{{ .URL }}" class="light">{{- .Name -}}</a></li>
+		{{ end }}
+	</ul>
 </footer>

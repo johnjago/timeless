@@ -8,5 +8,5 @@ features = []
 min_version = "0.41.0"
 
 [author]
-  name = "John Jago"
-  homepage = "https://johnjago.com"
+	name = "John Jago"
+	homepage = "https://johnjago.com"

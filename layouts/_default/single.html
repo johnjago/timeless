@@ -1,11 +1,11 @@
 {{ define "main" }}
-    <section id="main">
-        <time class="light mb-1 inline-block">∞</time> &middot; <a href="{{ .Site.BaseURL }}" class="light">{{ .Site.Params.HeaderAllPostsText | default "all posts" }}</a>
-        <h1 id="title" class="mb-5">{{ .Title }}</h1>
-        <div>
-            <article id="content">
-                {{ .Content }}
-            </article>
-        </div>
-    </section>
+<section id="main">
+	<time class="light mb-1 inline-block">∞</time> &middot; <a href="{{ .Site.BaseURL }}" class="light">{{ .Site.Params.HeaderAllPostsText | default "all posts" }}</a>
+	<h1 id="title" class="mb-5">{{ .Title }}</h1>
+	<div>
+		<article id="content">
+			{{ .Content }}
+		</article>
+	</div>
+</section>
 {{ end }}
