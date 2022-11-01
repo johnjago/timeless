@@ -5,6 +5,9 @@
 - Make it easy to see which posts have been read on the index page with a
   visited link color
 - Fix images not fitting on small screens
+- Always show index page post date for zh content language since Chinese
+  characters are compact and don't have long line lengths that cause the ugly
+  wrapping of the dates
 
 ## 22.10.0 (2022-10-24)
 

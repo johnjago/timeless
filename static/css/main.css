@@ -179,6 +179,9 @@ footer a:hover,
 	.post-date {
 		display: none;
 	}
+	.always-show-post-date {
+		display: inline;
+	}
 }
 
 .inline {
