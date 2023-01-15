@@ -16,7 +16,7 @@
 			<time
 				datetime='{{ .PublishDate.Format "2006-01-02" }}'
 				title='{{ .PublishDate.Format "2006-01-02" }}'
-				class="post-date {{ if eq .Site.Language.Lang "zh" }}always-show-post-date{{ end }}">{{ if eq .Site.Language.Lang "zh" }}{{ index .Site.Data.months (printf "%d" .PublishDate.Month) }}{{ else }}{{ .PublishDate.Format "January" }}{{ end }}</time>
+				class="post-date lighter {{ if eq .Site.Language.Lang "zh" }}always-show-post-date{{ end }}">{{ if eq .Site.Language.Lang "zh" }}{{ index .Site.Data.months (printf "%d" .PublishDate.Month) }}{{ else }}{{ .PublishDate.Format "January" }}{{ end }}</time>
 		</li>
 	{{ end }}
 	</ul>

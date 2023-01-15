@@ -48,12 +48,14 @@ h3 {
 }
 
 a {
-	color: #07a;
+	color: #333;
 	text-decoration: underline;
+	text-decoration-color: #ff5d5d;
+	text-decoration-thickness: 2px;
 }
 
 .post-list a:visited {
-	color: #88a0aa;
+	color: #99a;
 }
 
 section ul {
@@ -122,6 +124,10 @@ blockquote {
 	border-left: 5px solid #ccc;
 	font-style: italic;
 	padding-left: 1.5rem;
+}
+
+.post-link {
+	color: #07a;
 }
 
 footer a,
