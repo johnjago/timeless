@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 23.01.0 (2023-01-15)
 
 - Make it easy to see which posts have been read on the index page with a
   visited link color
@@ -8,6 +8,7 @@
 - Always show index page post date for zh content language since Chinese
   characters are compact and don't have long line lengths that cause the ugly
   wrapping of the dates
+- Use a thicker, red underline for body text links
 
 ## 22.10.0 (2022-10-24)
 
