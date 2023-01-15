@@ -126,10 +126,6 @@ blockquote {
 	padding-left: 1.5rem;
 }
 
-.post-link {
-	color: #07a;
-}
-
 footer a,
 .post-link {
 	text-decoration: none;
@@ -138,6 +134,11 @@ footer a,
 footer a:hover,
 .post-link:hover {
 	text-decoration: underline;
+}
+
+.post-link:hover {
+	text-decoration-color: #ff5d5d;
+	text-decoration-thickness: 2px;
 }
 
 .no-bullet {
