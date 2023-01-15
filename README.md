@@ -7,6 +7,9 @@ It supports both `en` and `zh` content language, including regional date
 formats. It will default to English; otherwise you can add
 `defaultContentLanguage = "zh"` to config.toml.
 
+This theme is designed for my particular needs, so it may not be suitable for
+any new Hugo blog.
+
 ## config.toml
 
 ```
