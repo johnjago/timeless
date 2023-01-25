@@ -141,6 +141,11 @@ footer a:hover,
 	text-decoration-thickness: 2px;
 }
 
+::selection {
+	background-color: #999;
+	color: #fff;
+}
+
 .no-bullet {
 	list-style-type: none;
 }

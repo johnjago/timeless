@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Set a custom selection color that goes with the rest of the colors
+
 ## 1.1.0 (2023-01-15)
 
 - Make it easy to see which posts have been read on the index page with a
