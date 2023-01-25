@@ -1,6 +1,6 @@
 # Changelog
 
-## 23.01.0 (2023-01-15)
+## 1.1.0 (2023-01-15)
 
 - Make it easy to see which posts have been read on the index page with a
   visited link color
@@ -10,7 +10,7 @@
   wrapping of the dates
 - Use a thicker, red underline for body text links
 
-## 22.10.0 (2022-10-24)
+## 1.0.0 (2022-10-24)
 
 - The default serif font is now Source Serif Pro, which [can be considered the
   modern form](https://blog.typekit.com/2014/05/20/source-serif-pro/) of the
