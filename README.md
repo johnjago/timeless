@@ -24,6 +24,7 @@ theme = "timeless"
   footerSymbol = "~"
   allPostsText = "read more"
   serif = true
+  script = '<script src="https://example.org/example.js" defer></script>'
 
 [menu]
   [[menu.main]]

@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Set a custom selection color that goes with the rest of the colors
+- Add a script param for analytics or other scripts
 
 ## 1.1.0 (2023-01-15)
 
