@@ -1,29 +1,41 @@
 # Changelog
 
-## Unreleased
+## 1.2.0 (2023-04-28)
 
-- Set a custom selection color that goes with the rest of the colors
+### Added
 - Add a script param for analytics or other scripts
+
+### Changed
+- Set a custom selection color that goes with the rest of the colors
+- Font size is 1.2rem (a little larger than default browser font size)
 
 ## 1.1.0 (2023-01-15)
 
+### Added
 - Make it easy to see which posts have been read on the index page with a
   visited link color
-- Fix images not fitting on small screens
+
+### Changed
+- Use a thicker, red underline for body text links
 - Always show index page post date for zh content language since Chinese
   characters are compact and don't have long line lengths that cause the ugly
   wrapping of the dates
-- Use a thicker, red underline for body text links
+
+### Fixed
+- Fix images not fitting on small screens
 
 ## 1.0.0 (2022-10-24)
 
-- The default serif font is now Source Serif Pro, which [can be considered the
-  modern form](https://blog.typekit.com/2014/05/20/source-serif-pro/) of the
-  previous serif font on this theme, Charter
-- If the serif font does not load, it will now fall back to sans-serif system
-  fonts since they often look better
+### Added
 - Hide the month next to the post name on the index page if on mobile to make
   it look better on mobile
+
+### Changed
+- The default serif font is Source Serif Pro, which [can be considered the
+  modern form](https://blog.typekit.com/2014/05/20/source-serif-pro/) of the
+  previous serif font on this theme, Charter
+- If the serif font does not load, it will fall back to sans-serif system
+  fonts since they often look better
 
 ## 0.12.3 (2022-08-01)
 
