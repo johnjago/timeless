@@ -4,6 +4,7 @@
 
 ### Added
 - Add a script param for analytics or other scripts
+- Add Open Graph and Twitter Card meta tags
 
 ### Changed
 - Set a custom selection color that goes with the rest of the colors
