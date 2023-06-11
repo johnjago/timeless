@@ -1,5 +1,9 @@
 # Timeless — a blog theme for Hugo
 
+**Note**: As of June 2023, I stopped sharing this theme between my two blogs, [johnjago.com](https://johnjago.com) and [gaozhang.co](https://gaozhang.co). Letting each theme evolve on its own allows it to better fit the needs of each blog and greatly simplifies the development workflow for editing the themes.
+
+---
+
 Timeless is an opinionated design that emphasizes reading experience and
 content above all else.
 
